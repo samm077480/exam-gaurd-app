@@ -1,0 +1,20 @@
+name: exam_guard
+description: Anti-Cheating Exam and Monitoring App
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_windowmanager: ^0.2.0 # Screenshot block karne ke liye (Android)
+  cloud_firestore: ^4.15.0      # Live status sync karne ke liye
+  firebase_core: ^2.27.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  
